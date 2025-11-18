@@ -10490,7 +10490,22 @@ html:not(.lt-ie10) .not-animated {
 .lang-switch a:hover {
   text-decoration: underline;
 }
+.rd-navbar-nav a span {
+  font-family: 'Montserrat', sans-serif !important;
+  
+  font-weight: 700 !important; /* Bold */
+  letter-spacing: 0.5px;
+}
+.logo-img {
+  width: 160px;          /* un peu plus grand */
+  height: auto;          /* garde les proportions */
+  image-rendering: auto; /* meilleure qualité */
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.15)); /* léger effet propre */
+}
 
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
 
 /*
 * @subsection General Styles
